@@ -28,6 +28,7 @@ ROBOTSTXT_OBEY = False
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
 #DOWNLOAD_DELAY = 3
+
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -44,12 +45,14 @@ ROBOTSTXT_OBEY = False
 #   'Accept-Language': 'en',
 #}
 
+# 爬虫中间件
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
 #    'myscrapy.middlewares.MyscrapySpiderMiddleware': 543,
 #}
 
+# 下载中间件
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
@@ -62,6 +65,7 @@ ROBOTSTXT_OBEY = False
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 #}
 
+# 管道文件
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
